@@ -17,17 +17,17 @@
 header{
     margin: auto;
     padding: 80px 0px;
-    background-color: #6D5D83;
+    background-color: #06829B;
 }
  
 
 .header-section {
-    max-width: 1320px;
     margin: auto;
+    max-width: 1320px;
     background-image: url('images/Banner\ Image.png');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 150px 150px;
+    padding: 220px 100px;
     border-radius: 20px;
 }
 
@@ -116,6 +116,69 @@ header{
 
 /* Start Welcome Section  */
 
+ .section-2 {
+    margin: auto;
+    padding: 80px 0px;
+    background-color: #F0E9F8;
+    }
 
+.container-welcome {
+    width: 1320px;
+    padding: 50px 100px;
+    margin: 50px auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(images/Vectorrr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter:var(#151617)
 
+}
+.container-contant {
+    justify-content: space-between;
+    width: 60%;
+    padding-right: 25px;
+}
+
+.welcome-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.container-contant, p {
+    margin-top: 26px;
+    color: #F0E9F8;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.container-img {
+    width: 40%;
+    padding-left: 25px;
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.container-contant, button {
+    margin-top: 48px;
+    padding: 10px 30px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
 /* End Welcome Section  */
