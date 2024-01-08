@@ -12,3 +12,110 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* Start Header Section  */
+header{
+    margin: auto;
+    padding: 80px 0px;
+    background-color: #6D5D83;
+}
+ 
+
+.header-section {
+    max-width: 1320px;
+    margin: auto;
+    background-image: url('images/Banner\ Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 150px;
+    border-radius: 20px;
+}
+
+.Small-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-title{
+    width: 632px;
+    color: #FFF;
+    margin: auto;
+    padding-top: 16px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; 
+}
+/* End Header Section  */
+
+/* Start Categories Section  */
+
+.section {
+
+    margin: auto;
+    padding: 80px 0px;
+    background-color: #06829B;
+  
+   
+}
+
+.categorise{
+
+    width: 1320px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.heading-65 {
+    color: #240821;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-holiday {
+    margin-top: 48px;
+    color: #D8D4D5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.title-categories {
+    margin-top: 16px;
+    color: #D8D4D5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.new-year {
+    margin-top: 48px;
+    width: 802.9px;
+    height: 500px;
+}
+
+/* End Categories Section  */
+
+/* Start Welcome Section  */
+
+
+
+/* End Welcome Section  */
