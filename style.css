@@ -1,3 +1,14 @@
-h1{
-    color: brown;
+/* Start font added */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Merriweather:wght@400;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Merriweather:wght@400;700;900&display=swap');
+
+/* End font added */
+
+*{
+    margin: 0px;
+    padding: 0px;
 }
