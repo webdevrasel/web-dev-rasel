@@ -24,9 +24,10 @@ header{
 .header-section {
     margin: auto;
     max-width: 1320px;
-    background-image: url('images/Banner\ Image.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.563), #0000007c), url(images/Banner\ Image.png) ;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     padding: 220px 100px;
     border-radius: 20px;
 }
@@ -119,7 +120,7 @@ header{
  .section-2 {
     margin: auto;
     padding: 80px 0px;
-    background-color: #F0E9F8;
+    background-color: #06829B;
     }
 
 .container-welcome {
@@ -130,11 +131,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(images/Vectorrr.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473), #00000071), url(images/Vectorrr.png);
     background-size: cover;
     background-repeat: no-repeat;
-    backdrop-filter:var(#151617)
-
+   
 }
 .container-contant {
     justify-content: space-between;
@@ -172,13 +172,21 @@ header{
     align-items: center;
     flex-shrink: 0;
 }
-.container-contant, button {
-    margin-top: 48px;
-    padding: 10px 30px;
-    color: #FFF;
+.btn {
+    width: 200px;
+    padding: 15px 0px;
+    text-align: center;
+    margin-top:48px;
+    margin-bottom: 70px;
+    border-radius: 25px;
     font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
     font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid #ffffff;
+    background: transparent;
+    color: #FFF;
+    cursor: pointer;
 }
+
+
 /* End Welcome Section  */
