@@ -300,3 +300,74 @@ header{
     line-height: normal
 }
 /* End NEW BEST OFFER Section  */
+
+/* Start sale Section  */
+
+.section-5 {
+    width: 1520px;
+    margin: auto;
+    padding: 80px 80px;
+}
+.sale-content {
+    display: block;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+.sale-title-1 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.sale-title-2 {
+    color: #070211;
+    margin-top: 16px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.sale-content {
+    margin-top: 16px;
+    color: #6a6770;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 100px;
+}
+.image-column-1 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.sale-img-1 {
+    width: 50%;
+
+}
+.sale-img-2, img {
+    align-items: right;
+}
+.sale-img-3 {
+    width: 30%;
+}
+.rasel-1 {
+    padding-left: 23px;
+}
+.image-column-2 {
+    background-image: url(images/Rectangle\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+    border-radius: 20px 0px ;
+    margin-top: -235px;
+}
+/* End sale Section  */
