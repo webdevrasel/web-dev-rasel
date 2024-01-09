@@ -411,6 +411,12 @@ header{
     margin-bottom: 10px;
     transition: all 05s;
 }
+.rasel {
+    position: relative;
+    left: 170px;
+    top: 50px;
+
+}
 .group-image1:hover img {
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.5);
@@ -547,7 +553,16 @@ footer {
     font-weight: 500;
     line-height: normal;
 }
+.site-link p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
 hr {
     margin-top: 20px;
+    color: #F0E9F8;
 }
 /* End Footer */
