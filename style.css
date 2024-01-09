@@ -491,3 +491,63 @@ header{
     background-color: #F00;
 }
 /* end Subscribe Newsletter Section  */
+
+/* Start Footer */
+
+footer {
+    margin-top: 80px;
+    background-color: #06829b;
+}
+.footer-column {
+    width: 1520px;
+    padding: 60px 0px;
+    margin: auto;
+}
+.info-text {
+    display: flex;
+}
+.call img p {
+}
+.info-text h4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.info-content {
+    width: 50%;
+    justify-content: space-between;
+}
+.social-icon {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon img {
+    width: 64px;
+    height: 64px;
+    padding: 10px;
+}
+.coppyright {
+    padding-top: 30px;
+    display: flex; 
+    justify-content: space-between;
+
+}
+.coppyright  h4 {
+    display: flex; 
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+hr {
+    margin-top: 20px;
+}
+/* End Footer */
