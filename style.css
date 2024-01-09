@@ -226,21 +226,16 @@ header{
     width: 1520px;
     margin: auto;
     padding: 80px 80px;
-
 }
-
 .new-best-offer {
    
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    
-
 }
 .column-1 {
     width: 30%;
 }
-
 .title-1 {
     margin-top: 80px;
     color: #F00;
@@ -259,7 +254,6 @@ header{
     text-transform: capitalize;
     margin-top:20px;
 }
-
 .prgp {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -268,13 +262,10 @@ header{
     font-weight: 400;
     line-height: 32px;
 }
-
 .column-2 {
     width: 40%;
     display: flex;
     justify-content: center;
-    
-    
 }
 .img-2 {
     width: 300px;
@@ -283,13 +274,11 @@ header{
     border-radius: 1000px;
     border: 10px solid red;
     padding: 30px;
-
 }
 
 .column-3 {
     width: 30%;
 }
-
 .title-2024 {
     margin-top: 80px;
     color: #F00;
@@ -378,9 +367,6 @@ header{
     padding: 80px 80px;
     width: 1520px;
 }
-.gallery-content {
-
-}
 .gallery-smal-title {
     color: #F00;
     font-family: Inter;
@@ -431,3 +417,77 @@ header{
 }
 
 /* end image gallery Section  */
+
+
+/* start Subscribe Newsletter Section  */
+
+.section-7 {
+    width: 1345px;
+    margin: auto;
+    padding: 80px 80px;
+    background-color: #fff2f2;
+    border-radius: 20px;
+}
+
+.image-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+.maill-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.subscribe {
+    padding-left: 80px;
+    width: 40%;
+    margin: auto;
+}
+.maill-p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 60%;
+    margin: auto;
+    padding-top: 16px;
+    padding-bottom: 25px;
+}
+.subscribe input {
+    align-items: center;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    width: 60%;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px 0px 0px 25px;
+    margin-right: 10px;
+    outline: none;
+    background-color: #fff;
+    margin: -13px;
+}
+.subscribe button {
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    font-family: Inter;
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: #F00;
+}
+/* end Subscribe Newsletter Section  */
